@@ -6,92 +6,13 @@ import { Button } from "@/components/ui/button"
 import { Input } from "@/components/ui/input"
 import { ArrowRight, Shield, Zap, Globe, RefreshCw, Users, Menu, X } from "lucide-react"
 import { useState } from "react"
+import Navbar from "@/components/Navbar"
 
 export default function LandingPage() {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false)
 
   return (
     <div className="min-h-screen bg-black text-white flex flex-col">
-      {/* Header */}
-      <header className="border-b border-purple-900/20 backdrop-blur-sm bg-black/80 sticky top-0 z-50">
-        <div className="container mx-auto px-4 py-4 flex items-center justify-between">
-          <Link href="/" className="flex items-end gap-0">
-            <Image src='/zephyrIcon.png' width={40} height={40} alt="logo"/>
-            <span className="font-bold text-xl">ephyr</span>
-          </Link>
-
-          {/* Desktop Navigation */}
-          <nav className="hidden md:flex items-center gap-8">
-            <Link href="#features" className="text-sm text-gray-300 hover:text-purple-400 transition-colors">
-              Features
-            </Link>
-            <Link href="#how-it-works" className="text-sm text-gray-300 hover:text-purple-400 transition-colors">
-              How It Works
-            </Link>
-            <Link href="#security" className="text-sm text-gray-300 hover:text-purple-400 transition-colors">
-              Security
-            </Link>
-            <Link href="#community" className="text-sm text-gray-300 hover:text-purple-400 transition-colors">
-              Community
-            </Link>
-          </nav>
-
-          <div className="hidden md:flex items-center gap-4">
-            <Button variant="outline" className="border-purple-500 text-purple-400 hover:bg-purple-500/10">
-              Sign In
-            </Button>
-            <Button className="bg-purple-600 hover:bg-purple-700 text-white">Get Started</Button>
-          </div>
-
-          {/* Mobile menu button */}
-          <button className="md:hidden text-gray-300" onClick={() => setMobileMenuOpen(!mobileMenuOpen)}>
-            {mobileMenuOpen ? <X size={24} /> : <Menu size={24} />}
-          </button>
-        </div>
-
-        {/* Mobile Navigation */}
-        {mobileMenuOpen && (
-          <div className="md:hidden bg-black/95 border-b border-purple-900/20 py-4">
-            <nav className="container mx-auto px-4 flex flex-col gap-4">
-              <Link
-                href="#features"
-                className="text-gray-300 hover:text-purple-400 py-2 transition-colors"
-                onClick={() => setMobileMenuOpen(false)}
-              >
-                Features
-              </Link>
-              <Link
-                href="#how-it-works"
-                className="text-gray-300 hover:text-purple-400 py-2 transition-colors"
-                onClick={() => setMobileMenuOpen(false)}
-              >
-                How It Works
-              </Link>
-              <Link
-                href="#security"
-                className="text-gray-300 hover:text-purple-400 py-2 transition-colors"
-                onClick={() => setMobileMenuOpen(false)}
-              >
-                Security
-              </Link>
-              <Link
-                href="#community"
-                className="text-gray-300 hover:text-purple-400 py-2 transition-colors"
-                onClick={() => setMobileMenuOpen(false)}
-              >
-                Community
-              </Link>
-              <div className="flex flex-col gap-3 pt-3 border-t border-purple-900/20">
-                <Button variant="outline" className="border-purple-500 text-purple-400 hover:bg-purple-500/10 w-full">
-                  Sign In
-                </Button>
-                <Button className="bg-purple-600 hover:bg-purple-700 text-white w-full">Get Started</Button>
-              </div>
-            </nav>
-          </div>
-        )}
-      </header>
-
       <main>
         {/* Hero Section */}
         <section className="relative overflow-hidden">
