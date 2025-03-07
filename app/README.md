@@ -1,7 +1,7 @@
 # Zephyr Protocol Borrower App
 
 <p align="center">
-  <img src="app/assets/zephyr.jpg" alt="Zephyr Protocol Logo" width="200"/>
+  <img src="assets/zephyr.jpg" alt="Zephyr Protocol Logo" width="100"/>
 </p>
 
 ## Overview
@@ -23,12 +23,12 @@ The Zephyr Protocol Borrower App is a Flutter-based mobile application that allo
 ## Screenshots
 
 <p align="center">
-  <img src="web/public/mob1.jpeg" alt="Home Screen" width="200"/>
-  <img src="web/public/mob2.jpeg" alt="Collateral Management" width="200"/>
-  <img src="web/public/mob3.jpeg" alt="Loan Creation" width="200"/>
-  <img src="web/public/mob4.jpeg" alt="Analytics Dashboard" width="200"/>
-  <img src="web/public/mob5.jpeg" alt="Analytics Dashboard" width="200"/>
-  <img src="web/public/mob6.jpeg" alt="Analytics Dashboard" width="200"/>
+  <img src="assets/mob1.jpeg" alt="Home Screen" width="200"/>
+  <img src="assets/mob2.jpeg" alt="Collateral Management" width="200"/>
+  <img src="assets/mob3.jpeg" alt="Loan Creation" width="200"/>
+  <img src="assets/mob4.jpeg" alt="Analytics Dashboard" width="200"/>
+  <img src="assets/mob5.jpeg" alt="Analytics Dashboard" width="200"/>
+  <img src="assets/mob6.jpeg" alt="Analytics Dashboard" width="200"/>
 </p>
 
 ## Technology Stack
