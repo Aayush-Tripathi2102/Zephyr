@@ -63,11 +63,6 @@ Our platform provides lenders with:
 - **Seamless Experience**: Dedicated web and mobile applications for portfolio management
 - **Liquidity Rewards**: Earn PHYR tokens for providing liquidity to the protocol
 
-## 🌐 Platform Access
-
-- **Website**: [zephyrprotocol.io](https://zephyrprotocol.io)
-- **Web App**: [app.zephyrprotocol.io](https://app.zephyrprotocol.io)
-- **Mobile App**: Available on iOS and Android
 
 ## 🔄 PHYR Token System
 
