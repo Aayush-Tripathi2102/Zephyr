@@ -1,0 +1,1 @@
+/Users/vedantsharma/SideProjects/zephyr/app/zephyr/build/app/intermediates/cxx/Debug/2fnj6u1q/obj/arm64-v8a

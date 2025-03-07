@@ -1,0 +1,2 @@
+/Users/vedantsharma/SideProjects/zephyr/app/zephyr/android/app/.cxx/Debug/2fnj6u1q/x86/CMakeFiles/edit_cache.dir
+/Users/vedantsharma/SideProjects/zephyr/app/zephyr/android/app/.cxx/Debug/2fnj6u1q/x86/CMakeFiles/rebuild_cache.dir
