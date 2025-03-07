@@ -2,6 +2,8 @@
   
 # Zephyr Protocol
 
+<img src='web/public/zephyrIcon.png' width=70 > 
+
 ### Next-Generation Decentralized Lending Platform
 
 [![Solidity](https://img.shields.io/badge/Solidity-0.8.x-363636?style=for-the-badge&logo=solidity&logoColor=white)](https://docs.soliditylang.org/)
