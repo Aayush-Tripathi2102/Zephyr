@@ -13,6 +13,7 @@ export default function LandingPage() {
 
   return (
     <div className="min-h-screen bg-black text-white flex flex-col">
+      <Navbar/>
       <main>
         {/* Hero Section */}
         <section className="relative overflow-hidden">
@@ -25,7 +26,7 @@ export default function LandingPage() {
           <div className="container mx-auto px-4 py-20 md:py-32 relative z-10">
             <div className="max-w-3xl mx-auto text-center mb-12">
               <div className="inline-block px-3 py-1 rounded-full bg-purple-900/30 text-purple-400 text-xs font-medium mb-6">
-                Decentralized P2P Lending
+                Decentralized Lending Protocol
               </div>
               <h1 className="text-4xl md:text-6xl font-bold mb-6 bg-clip-text text-transparent bg-gradient-to-r from-white to-purple-200">
                 Borrow & Lend Without Intermediaries

@@ -29,9 +29,9 @@ const Navbar = () => {
   return (
     <header className="sticky top-0 z-50 border-b border-purple-900/20 bg-black/80 backdrop-blur-sm">
       <div className="container mx-auto flex items-center justify-between px-4 py-4">
-        <Link href="/" className="flex items-end gap-0">
-          <Image src="/zephyrIcon.png" width={40} height={40} alt="logo" />
-          <span className="text-xl font-bold">ephyr</span>
+        <Link href="/" className="flex items-center justify-center gap-0">
+          <Image src="/zephyrIcon.png" width={40} height={40} alt="logo" className="pt-[2px] "/>
+          <span className="text-[36px] font-semibold">EPHYR</span>
         </Link>
 
         {/* Desktop Navigation */}
@@ -54,7 +54,7 @@ const Navbar = () => {
                 }}
                 className="border-purple-500 text-purple-400 hover:bg-purple-500/10"
               >
-                Sign In
+                Sign Up
               </Button>
               <Button onClick={()=>{router.push('/login')}} className="bg-purple-600 text-white hover:bg-purple-700">
                 Log in
