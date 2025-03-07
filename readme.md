@@ -36,7 +36,7 @@ Zephyr Protocol is a revolutionary decentralized lending protocol designed to br
 |-----------|------------|
 | Smart Contracts | Solidity |
 | Development IDE | Remix |
-| Frontend | React.js, Web3.js |
+| Frontend | React.js, Web3.js, Flutter |
 | Wallet Integration | MetaMask |
 | Tokenization | PHYR Tokens (ERC-20) |
 | Blockchain | Ethereum |
