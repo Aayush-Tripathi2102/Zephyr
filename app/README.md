@@ -1,4 +1,4 @@
-# Zephyr Protocol Borrower App
+lp# Zephyr Protocol Borrower App
 
 <p align="center">
   <img src="assets/zephyr.jpg" alt="Zephyr Protocol Logo" width="100"/>
@@ -38,8 +38,7 @@ The Zephyr Protocol Borrower App is a Flutter-based mobile application that allo
 - **Blockchain Integration**: Web3Dart
 - **State Management**: Provider/Riverpod
 - **Local Storage**: Hive
-- **API Integration**: Zephyr Protocol API
-- **Analytics**: Firebase Analytics
+- **API Integration**: Zephyr Protocol 
 - **UI Components**: Flutter Material Design, Custom Widgets
 
 ## Getting Started
