@@ -43,6 +43,8 @@ Zephyr Protocol is a revolutionary decentralized lending protocol designed to br
 
 ## 🚀 For Borrowers
 
+<img src="app/assets/mob3.jpeg" width=200>
+
 Zephyr Protocol offers a seamless borrowing experience with these key advantages:
 
 - **Flexible Collateral Options**: Use multiple crypto assets to secure your loans
@@ -51,6 +53,8 @@ Zephyr Protocol offers a seamless borrowing experience with these key advantages
 - **Web3 Integration**: Connect easily through MetaMask for a seamless experience
 
 ## 💰 For Lenders
+
+<img src="web/public/webDash.jpg">
 
 Our platform provides lenders with:
 
