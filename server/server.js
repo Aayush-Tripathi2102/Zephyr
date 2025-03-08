@@ -2,6 +2,7 @@ const { ethers } = require("ethers");
 const express = require("express");
 const http = require("http");
 const { Server } = require("socket.io");
+const { dotenv } = require("dotenv");
 
 const lendingPoolABI = [
     "event DepositCollateral(address indexed user, address token, uint256 amount)",
@@ -32,11 +33,11 @@ class BlockchainServer {
         this.io = new Server(this.server);
 
         this.provider = new ethers.WebSocketProvider(
-            "wss://sepolia.infura.io/ws/v3/42653e3c6c2047c3a916555895ed7833"
+            `${process.env.RPC_URL}`
         );
 
         this.contractAddresses = {
-            lendingPool: "0xec2eb75dBD42ea2C35aB033fb9Cdde516f240962",
+            lendingPool: `${process.env.CONTRACT_ADDRESS}`,
         };
 
         this.contracts = {};
@@ -47,7 +48,7 @@ class BlockchainServer {
 
     initializeContracts() {
         this.signer = new ethers.Wallet(
-            "466b159ba624b6f7dedf851424e0f3366727901632206f3c2b0479863da3bd3f",
+            `${process.env.PRIVATE_KEY}`,
             this.provider
         );
         this.contracts.lendingPool = new ethers.Contract(
